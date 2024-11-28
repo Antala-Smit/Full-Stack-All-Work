@@ -1,0 +1,37 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+.container{
+	max-width:1140;
+	margin:0 auto;
+}
+
+.Chess{
+	width:900px;
+	height:900px;
+	border:30px solid #32230f;
+	margin:50px auto;
+}
+.light{
+	width:12.5%;
+	height:12.5%;
+	background-color:#ddba89;
+	float:left;
+	font-size:80px;
+	text-align:center
+}
+.dark{
+	width:12.5%;
+	height:12.5%;
+	background-color:#32230f;
+	float:left;
+	font-size:80px;
+	text-align:center;
+	color:White;
+}
+.clear{
+	clear:both
+}
+

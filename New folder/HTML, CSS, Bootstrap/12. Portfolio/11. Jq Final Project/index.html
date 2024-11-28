@@ -1,0 +1,959 @@
+<!Doctype>
+<html>
+
+<head>
+    <title>PreSkool - Dashboard</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- logo link-->
+    <link rel="icon" href="assets/image/pen.png">
+    <!-- fontawsome link -->
+    <link href="assets/css/all.min.css" rel="stylesheet">
+    <!-- fonts link -->
+    <link href="assets/css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link rel="stylesheet" href="assets/css/dropdown.css">
+    <!-- css link-->
+    <link href="assets/css/style.css" rel="stylesheet">
+    <!-- media css -->
+    <link href="assets/css/media.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- header start -->
+    <div class="element" id="element">
+        <header>
+            <div class="d-flex align-items">
+                <div class="w-5 w-md-4 w-lg-6 w-xl-6 ">
+                    <div class="logo d-flex align-items justify-between">
+                        <img src="assets/image/logo.png" class="d-none d-md-flex">
+                        <a href="#" class="toggle"><i class="fa-solid fa-bars"></i></a>
+                        <div class="search d-none d-lg-flex ">
+                            <div class="search-box">
+                                <button class="search-btn"><i class="fas fa-search"></i></button>
+                                <input class="search-input" type="text" placeholder="Search here">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-2">
+                    <img src="assets/image/logo-small.png" class="d-md-none" width="40px">
+                </div>
+                <div class="w-5 w-md-6 w-lg-4 w-xl-4 w-xxl-4">
+                    <div class="menu justify-end">
+                        <nav class="navbar" role="navigation" aria-label="main navigation">
+                            <div class="navbar-brand">
+
+                            </div>
+                            <div id="navbarBasicExample" class="navbar-menu">
+                                <div class="navbar-end">
+                                    <div class="navbar-item has-dropdown is-hoverable lang-dropdown">
+                                        <a class="navbar-link is-arrowless">
+                                            <img src="assets/image/flage.svg">
+                                        </a>
+                                        <div class="navbar-dropdown is-boxed is-right">
+                                            <a class="navbar-item">
+                                                <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/usa-512.png" alt="">
+                                                <span>English</span>
+                                            </a>
+                                            <a class="navbar-item">
+                                                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyVMJWQEATFXJPjzVL5K8pX9pQuyhcJHdkHtLCS45HF4PXb_Rt" alt="">
+                                                <span>German</span>
+                                            </a>
+                                            <a class="navbar-item">
+                                                <img src="https://cdn0.iconfinder.com/data/icons/all-national-flags-of-the-world-very-high-quality-/283/spain-512.png" alt="">
+                                                <span>Spanish</span>
+                                            </a>
+                                            <hr class="navbar-divider">
+                                            <a class="navbar-item">
+                                                <small>Suggest Others</small>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+
+                        <div class="wrapper w-md-9">
+                            <div class="navbar">
+                                <div class="navbar_right align-items">
+                                    <div class="notifications">
+                                        <div class="icon_wrap">
+                                            <a href="#"><i class="far fa-bell"></i></a>
+                                        </div>
+
+                                        <div class="notification_dd">
+                                            <ul class="notification_ul">
+                                                <li class="starbucks success">
+                                                    <div class="notify_icon">
+                                                        <img src="assets/image/avatar-02.jpg">
+                                                    </div>
+                                                    <div class="notify_data">
+                                                        <p>Carlson Tech <span> has approved </span>your estimate</p>
+                                                    </div>
+
+                                                </li>
+                                                <li class="starbucks success">
+                                                    <div class="notify_icon">
+                                                        <img src="assets/image/avatar-11.jpg">
+                                                    </div>
+                                                    <div class="notify_data">
+                                                        <p>International Software Inc<span> sent a cancellation request
+                                                            </span>Apple iPhone XR</p>
+                                                    </div>
+
+                                                </li>
+                                                <li class="starbucks success">
+                                                    <div class="notify_icon">
+                                                        <img src="assets/image/avatar-13.jpg">
+                                                    </div>
+                                                    <div class="notify_data">
+                                                        <p>John Hendry <span> sent a cancellation request </span>Apple iPhone XR</p>
+                                                    </div>
+
+                                                </li>
+                                                <li class="starbucks success">
+                                                    <div class="notify_icon">
+                                                        <img src="assets/image/avatar-17.jpg">
+                                                    </div>
+                                                    <div class="notify_data">
+                                                        <p>Mercury Software Inc<span> added a new product </span>Apple MacBook Pro</p>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+
+                                    <div class="full-screen d-none d-md-flex">
+                                        <nav>
+                                            <button onclick="var el = document.getElementById('element'); el.requestFullscreen();">
+                                                <a href="#"><i class="fa-solid fa-expand"></i></a>
+                                            </button>
+                                        </nav>
+                                    </div>
+                                    <div class="profile ">
+                                        <div class="icon_wrap">
+                                            <a href="#">
+                                                <img src="assets/image/profile.jpg">
+                                                <span class="name d-none d-md-flex">Ryan Taylor <p>Administrator</p></span>
+
+                                                <i class="fas fa-chevron-down d-none d-md-flex"></i>
+                                            </a>
+                                        </div>
+                                        <div class="profile_dd">
+                                            <ul class="profile_ul">
+                                                <li class="profile_li"><a class="profile" href="#"><span
+                                                            class="picon"><i class="fas fa-user-alt"></i>
+                                                        </span>Profile</a>
+                                                    <div class="btn">My Account</div>
+                                                </li>
+                                                <li><a class="address" href="#"><span class="picon"><i
+                                                                class="fas fa-map-marker"></i></span>Inbox</a></li>
+                                                <li><a class="logout" href="#"><span class="picon"><i
+                                                                class="fas fa-sign-out-alt"></i></span>Logout</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="popup">
+                                <div class="shadow"></div>
+                                <div class="inner_popup">
+                                    <div class="notification_dd">
+                                        <ul class="notification_ul">
+                                            <li class="title">
+                                                <p>All Notifications</p>
+                                                <p class="close"><i class="fas fa-times" aria-hidden="true"></i></p>
+                                            </li>
+                                            <li class="starbucks success">
+                                                <div class="notify_icon">
+                                                    <span class="icon"></span>
+                                                </div>
+                                                <div class="notify_data">
+                                                    <div class="title">
+                                                        Lorem, ipsum dolor.
+                                                    </div>
+                                                    <div class="sub_title">
+                                                        Lorem ipsum dolor sit amet consectetur.
+                                                    </div>
+                                                </div>
+                                                <div class="notify_status">
+                                                    <p>Success</p>
+                                                </div>
+                                            </li>
+                                            <li class="baskin_robbins failed">
+                                                <div class="notify_icon">
+                                                    <span class="icon"></span>
+                                                </div>
+                                                <div class="notify_data">
+                                                    <div class="title">
+                                                        Lorem, ipsum dolor.
+                                                    </div>
+                                                    <div class="sub_title">
+                                                        Lorem ipsum dolor sit amet consectetur.
+                                                    </div>
+                                                </div>
+                                                <div class="notify_status">
+                                                    <p>Failed</p>
+                                                </div>
+                                            </li>
+                                            <li class="mcd success">
+                                                <div class="notify_icon">
+                                                    <span class="icon"></span>
+                                                </div>
+                                                <div class="notify_data">
+                                                    <div class="title">
+                                                        Lorem, ipsum dolor.
+                                                    </div>
+                                                    <div class="sub_title">
+                                                        Lorem ipsum dolor sit amet consectetur.
+                                                    </div>
+                                                </div>
+                                                <div class="notify_status">
+                                                    <p>Success</p>
+                                                </div>
+                                            </li>
+                                            <li class="pizzahut failed">
+                                                <div class="notify_icon">
+                                                    <span class="icon"></span>
+                                                </div>
+                                                <div class="notify_data">
+                                                    <div class="title">
+                                                        Lorem, ipsum dolor.
+                                                    </div>
+                                                    <div class="sub_title">
+                                                        Lorem ipsum dolor sit amet consectetur.
+                                                    </div>
+                                                </div>
+                                                <div class="notify_status">
+                                                    <p>Failed</p>
+                                                </div>
+                                            </li>
+                                            <li class="kfc success">
+                                                <div class="notify_icon">
+                                                    <span class="icon"></span>
+                                                </div>
+                                                <div class="notify_data">
+                                                    <div class="title">
+                                                        Lorem, ipsum dolor.
+                                                    </div>
+                                                    <div class="sub_title">
+                                                        Lorem ipsum dolor sit amet consectetur.
+                                                    </div>
+                                                </div>
+                                                <div class="notify_status">
+                                                    <p>Success</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main class="d-flex">
+            <div class="w-2 w-xxl-2 d-xxl-flex">
+                <div class="accordian">
+                    <ul class="show-dropdown">
+                        <span>Main Menu</span>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-expand"></i> Dashboard</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Admin Dashboard</a></li>
+                                <li><a href="javascript:void(0);">Teacher Dashboard</a></li>
+                                <li><a href="javascript:void(0);">Student Dashboard</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-graduation-cap"></i> Students</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Student List</a></li>
+                                <li><a href="javascript:void(0);">Student View</a></li>
+                                <li><a href="javascript:void(0);">Student Add</a></li>
+                                <li><a href="javascript:void(0);">Student Edit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-chalkboard-user"></i>Teachers</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Teacher List</a></li>
+                                <li><a href="javascript:void(0);">Teacher View</a></li>
+                                <li><a href="javascript:void(0);">Teacher Add</a></li>
+                                <li><a href="javascript:void(0);">Teacher Edit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-building"></i> Departments</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Department List</a></li>
+                                <li><a href="javascript:void(0);">Department Add</a></li>
+                                <li><a href="javascript:void(0);">Department Edit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-book-open-reader"></i>Subjects</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Subject List</a></li>
+                                <li><a href="javascript:void(0);">Subject Add</a></li>
+                                <li><a href="javascript:void(0);">Subject Edit</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-clipboard"></i> Invoices</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Invoices List</a></li>
+                                <li><a href="javascript:void(0);">Invoices Grid</a></li>
+                                <li><a href="javascript:void(0);">Add Invoices</a></li>
+                                <li><a href="javascript:void(0);">Edit Invoices</a></li>
+                                <li><a href="javascript:void(0);">Invoices Details</a></li>
+                                <li><a href="javascript:void(0);">Invoices Settings</a></li>
+                            </ul>
+                        </li>
+
+                        <span>Management</span>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-file-invoice-dollar"></i>Account</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Fees Collection</a></li>
+                                <li><a href="javascript:void(0);">Expenses</a></li>
+                                <li><a href="javascript:void(0);">Salary</a></li>
+                                <li><a href="javascript:void(0);">Add Fees</a></li>
+                                <li><a href="javascript:void(0);">Add Expenses</a></li>
+                                <li><a href="javascript:void(0);">Add Salary</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-holly-berry"></i>Holiday</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-comment-dollar"></i>Fees</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-clipboard-list"></i>Exam list</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-calendar-day"></i>Events</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-table"></i>Time Table</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-book"></i>Library</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa fa-newspaper"></i>Blogs</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">All Blogs</a></li>
+                                <li><a href="javascript:void(0);">Add Blog</a></li>
+                                <li><a href="javascript:void(0);">Edit Blog</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-gear"></i>Settings</a>
+                        </li>
+
+                        <span>Page</span>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-shield-alt"></i> Authentication </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Login</a></li>
+                                <li><a href="javascript:void(0);">Register</a></li>
+                                <li><a href="javascript:void(0);">Forgot Password</a></li>
+                                <li><a href="javascript:void(0);">Error Page</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-file"></i>Blank Page</a>
+                        </li>
+
+                        <span>Others</span>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-baseball-ball"></i>Sports</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-hotel"></i>Hostel</a>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-bus"></i>Transport</a>
+                        </li>
+
+                        <span>UI Interface</span>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fab fa-get-pocket"></i> Base UI </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Alerts</a></li>
+                                <li><a href="javascript:void(0);">Accordions</a></li>
+                                <li><a href="javascript:void(0);">Avatar</a></li>
+                                <li><a href="javascript:void(0);">Badges</a></li>
+                                <li><a href="javascript:void(0);">Buttons</a></li>
+                                <li><a href="javascript:void(0);">Button Group</a></li>
+                                <li><a href="javascript:void(0);">Breadcrumb</a></li>
+                                <li><a href="javascript:void(0);">cards</a></li>
+                                <li><a href="javascript:void(0);">Carousel</a></li>
+                                <li><a href="javascript:void(0);">Dropdowns</a></li>
+                                <li><a href="javascript:void(0);">Grip</a></li>
+                                <li><a href="javascript:void(0);">Images</a></li>
+                                <li><a href="javascript:void(0);">Lightbox</a></li>
+                                <li><a href="javascript:void(0);">Media</a></li>
+                                <li><a href="javascript:void(0);">Modals</a></li>
+                                <li><a href="javascript:void(0);">Offcanvas</a></li>
+                                <li><a href="javascript:void(0);">Pagination</a></li>
+                                <li><a href="javascript:void(0);">Popover</a></li>
+                                <li><a href="javascript:void(0);">Progress Bars</a></li>
+                                <li><a href="javascript:void(0);">Placeholders</a></li>
+                                <li><a href="javascript:void(0);">Range Slider</a></li>
+                                <li><a href="javascript:void(0);">Spinner</a></li>
+                                <li><a href="javascript:void(0);">Sweet Alerts</a></li>
+                                <li><a href="javascript:void(0);">Tabs</a></li>
+                                <li><a href="javascript:void(0);">Toasts</a></li>
+                                <li><a href="javascript:void(0);">Tooltip</a></li>
+                                <li><a href="javascript:void(0);">Typography</a></li>
+                                <li><a href="javascript:void(0);">Video</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-cube"></i>Elements </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Ribbon</a></li>
+                                <li><a href="javascript:void(0);">Clipboard</a></li>
+                                <li><a href="javascript:void(0);">Drag & Drop</a></li>
+                                <li><a href="javascript:void(0);">Rating</a></li>
+                                <li><a href="javascript:void(0);">Text Editor</a></li>
+                                <li><a href="javascript:void(0);">Counter</a></li>
+                                <li><a href="javascript:void(0);">Scrollbar</a></li>
+                                <li><a href="javascript:void(0);">Notification</a></li>
+                                <li><a href="javascript:void(0);">Sticky Note</a></li>
+                                <li><a href="javascript:void(0);">Timeline</a></li>
+                                <li><a href="javascript:void(0);">Horizontal Timeline</a></li>
+                                <li><a href="javascript:void(0);">Form Wizard</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-chart-simple"></i> Charts </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Apex Charts</a></li>
+                                <li><a href="javascript:void(0);">Chart Js</a></li>
+                                <li><a href="javascript:void(0);">Morris Charts</a></li>
+                                <li><a href="javascript:void(0);">Flot Charts</a></li>
+                                <li><a href="javascript:void(0);">Peity Charts</a></li>
+                                <li><a href="javascript:void(0);">C3 Charts</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fa-solid fa-award"></i>Icons </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Fontawesome Icons</a></li>
+                                <li><a href="javascript:void(0);">Feather Icons</a></li>
+                                <li><a href="javascript:void(0);">Ionic Icons</a></li>
+                                <li><a href="javascript:void(0);">Material Icons</a></li>
+                                <li><a href="javascript:void(0);">Pe7 Icons</a></li>
+                                <li><a href="javascript:void(0);">Simpleline Icons</a></li>
+                                <li><a href="javascript:void(0);">Themify Icons</a></li>
+                                <li><a href="javascript:void(0);">Weather Icons</a></li>
+                                <li><a href="javascript:void(0);">Typicon Icons</a></li>
+                                <li><a href="javascript:void(0);">Flag Icons</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-columns"></i> Forms </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Basic Inputs</a></li>
+                                <li><a href="javascript:void(0);">Input Groups</a></li>
+                                <li><a href="javascript:void(0);">Horizontal Form</a></li>
+                                <li><a href="javascript:void(0);">Vertical Form</a></li>
+                                <li><a href="javascript:void(0);">Form Mask</a></li>
+                                <li><a href="javascript:void(0);">Form Validation</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-table"></i> Tables </a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Basic Tables</a></li>
+                                <li><a href="javascript:void(0);">Data Table</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="javascript:void(0);"><i class="fas fa-code"></i> Multi Level</a>
+                            <ul>
+                                <li><a href="javascript:void(0);">Level 1</a>
+                                    <ul>
+                                        <li><a href="javascript:void(0);">Level 2</a></li>
+                                        <li><a href="javascript:void(0);">Level 2</a>
+                                            <ul>
+                                                <li><a href="javascript:void(0);">Level 3</a></li>
+                                                <li><a href="javascript:void(0);">Level 3</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="javascript:void(0);">Level 2</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="javascript:void(0);">Level 1</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+
+            <div class="w-12 welcome w-xxl-10">
+                <div class="wlc-ad d-flex align-items justify-between">
+                    <h4>Welcome Admin!</h4>
+                    <p><a href="#">Home</a><span>/ Admin</span></p>
+                </div>
+                <div class="d-flex py-12">
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="student d-flex align-items justify-between">
+                            <div class="content">
+                                <h3>Students</h3>
+                                <span>50055</span>
+                            </div>
+                            <div class="content-img">
+                                <img src="assets/image/dash-icon-01.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="student d-flex align-items justify-between">
+                            <div class="content">
+                                <h3>Awards</h3>
+                                <span>50+</span>
+                            </div>
+                            <div class="content-img">
+                                <img src="assets/image/dash-icon-02.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="student d-flex align-items justify-between">
+                            <div class="content">
+                                <h3>Department</h3>
+                                <span>30+</span>
+                            </div>
+                            <div class="content-img">
+                                <img src="assets/image/dash-icon-03.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="student d-flex align-items justify-between">
+                            <div class="content">
+                                <h3>Revenue</h3>
+                                <span>$505</span>
+                            </div>
+                            <div class="content-img">
+                                <img src="assets/image/dash-icon-04.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="chart d-flex">
+                    <div class="w-12 w-lg-6 w-xl-6 py-12">
+                        <div class="area-chart ">
+                            <div class="w-12 py-12">
+                                <p>Overview</p>
+                            </div>
+                            <div id="chart"></div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-lg-6 w-xl-6 py-12">
+                        <div class="area-chart">
+                            <div class="w-12">
+                                <p>Number of Students</p>
+                            </div>
+                            <div id="chart1"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="table-1 d-flex">
+                    <div class="w-12 w-xl-6 py-12">
+                        <div class="star-student">
+                            <div class="w-12 d-flex justify-between">
+                                <span>Star Students</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                            <table width="100%">
+                                <tr>
+                                    <td>ID</td>
+                                    <td>Name</td>
+                                    <td align="center">Marks</td>
+                                    <td align="center">Percentage</td>
+                                    <td align="center">Year</td>
+                                </tr>
+                                <tr>
+                                    <td>PRE2209</td>
+                                    <td>
+                                        <a href="#" class="d-flex"><img src="assets/image/avatar-02.jpg" width="25px" ; style="border-radius: 50%; margin-right:10px">John Smith</a>
+                                    </td>
+                                    <td align="center">1185</td>
+                                    <td align="center">98%</td>
+                                    <td align="center">2019</td>
+                                </tr>
+                                <tr>
+                                    <td>PRE1245</td>
+                                    <td>
+                                        <a href="#" class="d-flex"><img src="assets/image/profile.jpg" width="25px" ; style="border-radius: 50%; margin-right:10px">Jolie Hoskins</td>
+                                    <td align="center">1195</td>
+                                    <td align="center">99.5%</td>
+                                    <td align="center">2018</td>
+                                </tr>
+                                <tr>
+                                    <td>PRE1625</td>
+                                    <td>
+                                        <a href="#" class="d-flex"><img src="assets/image/avatar-03.jpg" width="25px" ; style="border-radius: 50%; margin-right:10px">Pennington Joy</td>
+                                    <td align="center">1196</td>
+                                    <td align="center">99.6%</td>
+                                    <td align="center">2017</td>
+                                </tr>
+                                <tr>
+                                    <td>PRE2516</td>
+                                    <td>
+                                        <a href="#" class="d-flex"><img src="assets/image/avatar-04.jpg" width="25px" ; style="border-radius: 50%; margin-right:10px">Millie Marsden</td>
+                                    <td align="center">1187</td>
+                                    <td align="center">98.2%</td>
+                                    <td align="center">2016</td>
+                                </tr>
+                                <tr>
+                                    <td>PRE2209</td>
+                                    <td>
+                                        <a href="#" class="d-flex"><img src="assets/image/avatar-05.jpg" width="25px" ; style="border-radius: 50%; margin-right:10px">John Smith</td>
+                                    <td align="center">1185</td>
+                                    <td align="center">98%</td>
+                                    <td align="center">2015</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="w-12 w-xl-6 py-12">
+                        <div class="win-student align-items d-flex">
+                            <div class="w-12 d-flex align-items justify-between">
+                                <span>Student Activity</span>
+                                <i class="fa-solid fa-ellipsis-vertical"></i>
+                            </div>
+                            <table width="100%">
+                                <tr>
+                                    <td><img src="assets/image/award-icon-01.svg"></td>
+                                    <td>
+                                        <h5>1st place in "Chess”</h5>
+                                        <p>John Doe won 1st place in "Chess"</p>
+                                    </td>
+                                    <td><span>1 Day ago</span></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/image/award-icon-02.svg"></td>
+                                    <td>
+                                        <h5>Participated in "Carrom"</h5>
+                                        <p>Justin Lee participated in "Carrom"</p>
+                                    </td>
+                                    <td><span>2 hours ago</span></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/image/award-icon-03.svg"></td>
+                                    <td>
+                                        <h5>Internation conference in "St.John School"</h5>
+                                        <p>Justin Leeattended internation conference in "St.John School"</p>
+                                    </td>
+                                    <td><span>2 Week ago</span></td>
+                                </tr>
+                                <tr>
+                                    <td><img src="assets/image/award-icon-04.svg"></td>
+                                    <td>
+                                        <h5>Won 1st place in "Chess"</h5>
+                                        <p>John Doe won 1st place in "Chess"</p>
+                                    </td>
+                                    <td><span>3 Day ago</span></td>
+                                </tr>
+
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex py-12">
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="facebook d-flex align-items justify-between">
+                            <div class="social">
+                                <h3>Like us on facebook</h3>
+                                <span>50,095</span>
+                            </div>
+                            <div class="social-img">
+                                <img src="assets/image/social-icon-01.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="twitter d-flex align-items justify-between">
+                            <div class="social">
+                                <h3>Follow us on twitter</h3>
+                                <span>48,596</span>
+                            </div>
+                            <div class="social-img">
+                                <img src="assets/image/social-icon-02.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="instagram d-flex align-items justify-between">
+                            <div class="social">
+                                <h3>Follow us on instagram</h3>
+                                <span>52,085</span>
+                            </div>
+                            <div class="social-img">
+                                <img src="assets/image/social-icon-03.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-12 w-md-6 w-xl-3 py-12">
+                        <div class="linkedin d-flex align-items justify-between">
+                            <div class="social">
+                                <h3>Follow us on linkedin</h3>
+                                <span>69,050</span>
+                            </div>
+                            <div class="social-img">
+                                <img src="assets/image/social-icon-04.svg">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer class="mg-0">
+                    <span>Copyright © 2022 Dreamguys.</span>
+                </footer>
+            </div>
+        </main>
+    </div>
+    <!-- header end -->
+
+
+    <!-- header start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="assets/js/jquery.min.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(".profile .icon_wrap").click(function() {
+            $(this).parent().toggleClass("active");
+            $(".notifications").removeClass("active");
+        });
+
+        $(".notifications .icon_wrap").click(function() {
+            $(this).parent().toggleClass("active");
+            $(".profile").removeClass("active");
+        });
+
+        $(".show_all .link").click(function() {
+            $(".notifications").removeClass("active");
+            $(".popup").show();
+        });
+
+        $(".close, .shadow").click(function() {
+            $(".popup").hide();
+        });
+    </script>
+    <!-- header end -->
+
+    <!-- main script start -->
+    <script>
+        $(document).ready(function() {
+            $(".accordian a").click(function() {
+                var link = $(this);
+                var closest_ul = link.closest("ul");
+                var parallel_active_links = closest_ul.find(".active")
+                var closest_li = link.closest("li");
+                var link_status = closest_li.hasClass("active");
+                var count = 0;
+
+                closest_ul.find("ul").slideUp(function() {
+                    if (++count == closest_ul.find("ul").length) {
+                        parallel_active_links.removeClass("active");
+                        parallel_active_links.children("ul").removeClass("show-dropdown");
+                    }
+                });
+
+                if (!link_status) {
+                    closest_li.children("ul").slideDown().addClass("show-dropdown");
+                    closest_li.parent().parent("li.active").find('ul').find("li.active").removeClass("active");
+                    link.parent().addClass("active");
+                }
+            })
+        });
+
+        // --------for-active-class-on-other-page-----------
+        jQuery(document).ready(function($) {
+            // Get current path and find target link
+            var path = window.location.pathname.split("/").pop();
+
+            // Account for home page with empty path
+            if (path == '') {
+                path = 'index.html';
+            }
+
+            var target = $('.accordian li a[href="' + path + '"]');
+            // Add active class to target link
+            target.parents("li").addClass('active');
+            target.parents("ul").addClass("show-dropdown");
+        });
+    </script>
+    <!-- main script end -->
+
+    <!-- area-chart start -->
+
+
+    <script>
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+            )
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+    <script>
+        // Replace Math.random() with a pseudo-random number generator to get reproducible results in e2e tests
+        // Based on https://gist.github.com/blixt/f17b47c62508be59987b
+        var _seed = 42;
+        Math.random = function() {
+            _seed = _seed * 16807 % 2147483647;
+            return (_seed - 1) / 2147483646;
+        };
+    </script>
+
+    <script>
+        var options = {
+            series: [{
+                name: 'series1',
+                data: [31, 40, 28, 51, 42, 109, 100]
+            }, {
+                name: 'series2',
+                data: [11, 32, 45, 32, 34, 52, 41]
+            }],
+            chart: {
+                height: 350,
+                type: 'area'
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                curve: 'smooth'
+            },
+            xaxis: {
+                type: 'datetime',
+                categories: ["2018-09-19T00:00:00.000Z", "2018-09-19T01:30:00.000Z", "2018-09-19T02:30:00.000Z", "2018-09-19T03:30:00.000Z", "2018-09-19T04:30:00.000Z", "2018-09-19T05:30:00.000Z", "2018-09-19T06:30:00.000Z"]
+            },
+            tooltip: {
+                x: {
+                    format: 'dd/MM/yy HH:mm'
+                },
+            },
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart"), options);
+        chart.render();
+    </script>
+    <!--area-chart end -->
+
+    <!-- column-chart start -->
+    <script>
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/eligrey-classlist-js-polyfill@1.2.20171210/classList.min.js"><\/script>'
+            )
+        window.Promise ||
+            document.write(
+                '<script src="https://cdn.jsdelivr.net/npm/findindex_polyfill_mdn"><\/script>'
+            )
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+
+
+    <script>
+        // Replace Math.random() with a pseudo-random number generator to get reproducible results in e2e tests
+        // Based on https://gist.github.com/blixt/f17b47c62508be59987b
+        var _seed = 42;
+        Math.random = function() {
+            _seed = _seed * 16807 % 2147483647;
+            return (_seed - 1) / 2147483646;
+        };
+    </script>
+
+    <script>
+        var options = {
+            series: [{
+                name: 'Girls',
+                data: [44, 55, 57, 56, 61, 58, 63, 60, 66]
+            }, {
+                name: 'Boys',
+                data: [76, 85, 101, 98, 87, 105, 91, 114, 94]
+            }],
+            chart: {
+                type: 'bar',
+                height: 350
+            },
+            plotOptions: {
+                bar: {
+                    horizontal: false,
+                    columnWidth: '55%',
+                    endingShape: 'rounded'
+                },
+            },
+            dataLabels: {
+                enabled: false
+            },
+            stroke: {
+                show: true,
+                width: 2,
+                colors: ['transparent']
+            },
+            xaxis: {
+                categories: ['Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct'],
+            },
+
+            fill: {
+                opacity: 1
+            },
+            tooltip: {
+                y: {
+                    formatter: function(val) {
+                        return +val + " "
+                    }
+                }
+            }
+        };
+
+        var chart = new ApexCharts(document.querySelector("#chart1"), options);
+        chart.render();
+    </script>
+    <!-- column-chart end -->
+
+    <script>
+        $('.toggle').on("click", function() {
+            $('.accordian').toggleClass('sidebar-open');
+        });
+    </script>
+</body>
+
+</html>

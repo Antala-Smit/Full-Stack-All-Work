@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	max-width:1140px;
+	margin:0 auto;
+}
+body{
+	background-image:url('../Photo/7.jpg');
+	background-repeat:no-repeat;
+	background-position: top;
+  background-attachment: fixed;
+}
+.w-30{
+	width:30%;
+	float:left;
+	margin:10px;
+}
+
+.img-box{
+	width:100%;
+	height:300px;
+	border:0px solid black;
+	margin:50px auto;
+	overflow:hidden;
+}
+.img-box img{
+	width:100%;
+	height:100%;
+	object-fit:cover;
+	transition:1.3s;
+}
+.img-box:hover img{
+	transform:scale(1.5);
+}
+.content{
+	padding:10px;	
+}
+h1{
+	font-size:40px;
+	color:White;
+}
+p:first-letter{
+   font-size:35px;
+}
+p:first-line{
+	color:Black;
+}
+p{
+	font-size:18px;
+	color:#FAD7A0;
+}
+.w-30:first-child .img-box:hover img{
+	transform:scale(0.5);
+}
+.w-30:nth-child(2) .img-box:hover img{
+	transform:rotate(360deg);
+}
+.w-30:nth-child(3) .img-box:hover img{
+	transform:skew(160deg);
+}
+.w-30:nth-child(4) .img-box:hover img{
+	transform:rotatey(360deg);
+}
+.w-30:nth-child(5) .img-box:hover img{
+	transform:skewy(160deg);
+}
+.w-30:last-child .img-box:hover img{
+	transform:scaley(-1.5) ;
+}
+

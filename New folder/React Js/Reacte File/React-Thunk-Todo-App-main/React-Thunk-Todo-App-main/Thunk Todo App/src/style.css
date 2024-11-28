@@ -1,0 +1,35 @@
+form{
+    position: relative;
+}
+input , textarea{
+    outline: none !important;
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.addbtn{
+    position: absolute;
+    right: 25px;
+    top:117px;
+    color: orange;
+    font-size: 25px;
+    padding: 3px 8px;
+    outline: none;
+    border: none;
+    background-color:transparent;
+}
+
+.deletebtn{
+    font-size: 20px;
+    color: orange;
+}
+
+.box-1 {
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+  
+span i {
+    cursor: pointer;
+}
+  

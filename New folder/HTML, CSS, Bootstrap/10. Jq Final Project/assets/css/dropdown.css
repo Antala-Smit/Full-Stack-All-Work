@@ -1,0 +1,34 @@
+.lang-dropdown .navbar-dropdown {
+    width: 180px;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item {
+    display: flex;
+    align-items: center;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item img {
+    display: block;
+    height: 26px;
+    width: 26px;
+    min-width: 26px;
+    border-radius: 50%;
+}
+
+.lang-dropdown .navbar-dropdown .navbar-item span {
+    display: block;
+    margin-left: 10px;
+}
+
+.lang-dropdown {
+    border-radius: 50%;
+    background-color: var(--secondery-color);
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+
+/*# sourceMappingURL=dropdown.css.map */

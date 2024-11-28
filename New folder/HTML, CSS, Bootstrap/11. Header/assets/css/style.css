@@ -1,0 +1,9 @@
+.collapse ul li {
+    padding-right: 30px;
+}
+
+.header {
+    width: 100%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.402);
+}
